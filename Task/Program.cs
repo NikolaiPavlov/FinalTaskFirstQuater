@@ -26,7 +26,6 @@ void PrintArray(string[] inputArray)
         Console.Write(inputArray[i] + "; ");
     }
     Console.Write("]");
-    Console.WriteLine();
 }
 
 PrintArray(array);
@@ -56,4 +55,5 @@ string[] CheckArray(string[] inputArray)
     return newArray;
 }
 
+Console.Write(" -> ");
 PrintArray(CheckArray(array));
