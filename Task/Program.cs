@@ -28,8 +28,6 @@ void PrintArray(string[] inputArray)
     Console.Write("]");
 }
 
-PrintArray(array);
-
 string[] CheckArray(string[] inputArray)
 {
     int count = 0;
@@ -55,5 +53,6 @@ string[] CheckArray(string[] inputArray)
     return newArray;
 }
 
+PrintArray(array);
 Console.Write(" -> ");
 PrintArray(CheckArray(array));
